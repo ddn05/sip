@@ -8,10 +8,17 @@
     <title>SIP | SISTEM INFORMASI PENDAFTARAN</title>
     <meta content="Responsive admin theme build on top of Bootstrap 4" name="description" />
     <meta content="Themesdesign" name="author" />
-    <link rel="shortcut icon" href="<?php echo base_url()?>assets/images/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo base_url()?>assets/images/favicon.png">
 
     <!--Morris Chart CSS -->
     <link rel="stylesheet" href="<?php echo base_url()?>plugins/morris/morris.css">
+
+    <!-- DataTables -->
+    <link href="<?php echo base_url()?>plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url()?>plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Responsive datatable examples -->
+    <link href="<?php echo base_url()?>plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
 
     <link href="<?php echo base_url()?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="<?php echo base_url()?>assets/css/metismenu.min.css" rel="stylesheet" type="text/css">
