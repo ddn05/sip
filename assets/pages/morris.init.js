@@ -168,17 +168,17 @@
 
         //creating donut chart
         var $donutData = [
-            {label: "Download Sales", value: 30},
-            {label: "In-Store Sales", value: 40},
-            {label: "Mail-Order Sales", value: 30}
+            {label: "Bahasa Inggris", value: 30},
+            {label: "ABCD", value: 40},
+            {label: "Samples", value: 30}
         ];
         this.createDonutChart('morris-donut-example', $donutData, ['#fcbe2d', '#30419b', '#02c58d']);
 
         //creating donut chart Dark
         var $donutData1 = [
-            {label: "Download Sales", value: 40},
-            {label: "In-Store Sales", value: 20},
-            {label: "Mail-Order Sales", value: 20}
+            {label: "Bahasa Inggris", value: 30},
+            {label: "ABCD", value: 40},
+            {label: "Samples", value: 30}
         ];
         this.createDonutChart1('morris-donut-example-dark', $donutData1, ['#f0f1f4', '#f0f1f4', '#f0f1f4']);
 
