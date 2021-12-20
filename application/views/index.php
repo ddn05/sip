@@ -94,7 +94,9 @@
                     <hr>
                     <!-- Tab panes -->
                     <div class="tab-content">
-                        <div class="tab-pane active p-3" id="home-1" role="tabpanel">
+
+                        <!-- TAB BIODATA -->
+                        <div class="tab-pane active p-3" id="biodata" role="tabpanel">
                             <div class="row">
                                 <div class="col-md-2 text-center">
                                     <img class="img-thumbnail mb-1" alt="200x200" style="width: 200px; height: 200px;" src="assets/images/small/img-3.jpg" data-holder-rendered="true">
@@ -182,6 +184,91 @@
                             </div>
                         </div>
 
+                        <!-- TAB KELUARGA -->
+                        <div class="tab-pane active p-3" id="keluarga" role="tabpanel">
+                            <div class="row">
+                                <div class="col-md-3 text-center">
+                                    <p class="m-0 mb-1"><strong>Foto Bersama Keluarga</strong></p>
+                                    <img src="assets/images/small/img-2.jpg" class="img-fluid mb-2" alt="Responsive image">
+                                    <p>
+                                        <a class="btn btn-light btn-sm" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                            Ubah Foto Bersama Keluarga
+                                        </a>
+                                    </p>
+                                    <div class="collapse" id="collapseExample">
+                                        <div class="card card-body p-0">
+                                            <input type="file" class="form-control-file m-0 btn-sm">
+                                            <button class="btn btn-sm btn-primary">Simpan</button>
+                                        </div>
+                                    </div>
+                                    <button class="btn-sm btn-success mt-3"><i class="fas fa-edit"></i> Ubah Data</button>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="table-responsive">
+                                        <table class="table table-hover mb-0">
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">Nomor Kartu Keluarga</th>
+                                                    <td>3231313918321</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">NIK Kepala Keluarga</th>
+                                                    <td>32123819382108</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">Nama Ayah/Wali</th>
+                                                    <td>Ayah</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">Hubungan dengan Ayah</th>
+                                                    <td>Ayah kandung</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">Pendidikan Ayah/Wali</th>
+                                                    <td>SD Sederajat</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">Pekerjaan Ayah</th>
+                                                    <td>Petani</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">Detil Ayah</th>
+                                                    <td>Ayah adalah orang yang hebat</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">Nama Ibu</th>
+                                                    <td>Ibu</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">Status Ibu</th>
+                                                    <td>Ibu Kandung</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">Pendidikan Ibu</th>
+                                                    <td>SD Sederajat</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">Pekerjaan Ibu</th>
+                                                    <td>Ibu Rumah Tangga</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">Detil Ibu</th>
+                                                    <td>Ibu adalah orang yang sangat luar biasa</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">Jumlah Tanggungan</th>
+                                                    <td>3</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row" style="width : 40%">Nomor Telepon Orangtua</th>
+                                                    <td>081765662882</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
